@@ -1,0 +1,38 @@
+.Generate {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Generate label {
+    text-align: left;
+    display: block;
+  }
+  .Generate h2 {
+    font-size: 40px;
+    color: #f1356d;
+    margin-bottom: 30px;
+  }
+  .Generate input, .create textarea, .create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+  }
+  .Generate button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  #qrcode{
+    align-items: center;
+  }
+  #scandata{
+    align-items: center;
+    font-size: medium;
+  }
